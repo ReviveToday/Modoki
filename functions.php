@@ -36,3 +36,22 @@ add_action(
 		]);
 	}
 );
+
+// Adjust the copyright for ReviveToday.
+add_filter(
+	'generate_copyright',
+	function( $copyright ) {
+		$copyright = sprintf(
+			'<span class="copyright">&copy; %1$s - %2$s %3$s</span>, a <a href="%4$s">soupbowl</a> site. <a href="%5$s">Theme details</a>.',
+			'2018',
+			date( 'Y' ),
+			get_bloginfo( 'name' ),
+			esc_url( 'https://www.soupbowl.io/' ),
+			esc_url( 'https://github.com/revivetoday/Modoki' )
+		);
+
+		return $copyright;
+	},
+	10,
+	1
+);
