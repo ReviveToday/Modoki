@@ -24,7 +24,8 @@ a {
 	border-bottom: .25em solid #0c4e53;
 }
 
-.site-header .main-title a {
+.site-header .main-title {
+	display: none;
 	color: #fff;
 }
 
@@ -34,6 +35,23 @@ a {
 
 .site-header .main-navigation {
 	background-color: inherit;
+}
+
+.site-header .inside-header {
+    padding: 5px 40px;
+}
+
+.site-header .header-image {
+	width: 75px;
+    position: absolute;
+    top: 10px;
+}
+
+@media (max-width: 768px) {
+	.site-header .header-image {
+		width: 50px;
+		position: inherit;
+	}
 }
 
 .site-header .main-navigation .main-nav ul li a {
