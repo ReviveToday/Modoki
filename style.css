@@ -22,6 +22,8 @@ a {
 .site-header {
 	background-color: #138e96;
 	border-bottom: .25em solid #0c4e53;
+	background-image: url('corner.svg');
+	background-repeat: no-repeat;
 }
 
 .site-header .main-title {
