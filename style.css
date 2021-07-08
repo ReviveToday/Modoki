@@ -1,0 +1,50 @@
+/*
+	Theme Name:   Modoki
+	Theme URI:    https://github.com/ReviveToday/Modoki
+	Description:  Forward Unto Dawn.
+	Author:       ReviveToday
+	Author URI:   https://revive.today
+	Template:     generatepress
+	Version:      0.1
+	License:      The MIT License
+	License URI:  https://mit-license.org/
+	Text Domain:  modernscape-iii
+*/
+
+body {
+	background-color: #f2f2f2;
+}
+
+.site-header {
+	background-color: #138e96;
+	border-bottom: .25em solid #0b4e53;
+}
+
+.site-header .main-title a {
+	color: #fff;
+}
+
+.site-header .main-nav {
+	background-color: #138e96;
+}
+
+.site-header .main-navigation .main-nav ul li:hover > a {
+	background-color: inherit;
+}
+
+.site-header .main-navigation ul ul {
+    background-color: #000000;
+}
+
+.site-content .post {
+	border: 1px solid #dadada;
+}
+
+.site-footer {
+	background-color: #1f1f1f;
+    border-top: .25em solid #3a3a3a;
+}
+
+.site-footer .site-info {
+	background-color: inherit;
+}
