@@ -7,6 +7,13 @@
  * @license MIT
  */
 
+/**
+ * Add the configuration options added by this child.
+ */
+require_once __DIR__ . '/custom/class-rt-settings.php';
+
+( new Rt_Settings() )->register_hooks();
+
 // Additional scripts.
 add_action(
 	'wp_enqueue_scripts',
