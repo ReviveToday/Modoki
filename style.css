@@ -57,9 +57,44 @@ a {
 	color: #fff;
 }
 
-.site-content .post {
+/* Light mode */
+
+.site-content .post,
+.site-content .page,
+.site-content .widget {
 	border: 1px solid #dadada;
 }
+
+/* End of Light mode - Dark mode */
+body.dark-mode {
+	background-color: #282828;
+	color: #fff;
+}
+
+.dark-mode .entry-title a {
+	color: #fff;
+}
+
+.dark-mode .entry-meta {
+	color: #a9a9a9;
+}
+
+.dark-mode .site-content .post,
+.dark-mode .site-content .page,
+.dark-mode .site-content .widget {
+	border-color: #212121;
+}
+
+.dark-mode.separate-containers .inside-article,
+.dark-mode.separate-containers .comments-area,
+.dark-mode.separate-containers .page-header,
+.dark-mode.one-container .container,
+.dark-mode.separate-containers .paging-navigation,
+.dark-mode.inside-page-header,
+.dark-mode .sidebar .widget {
+    background-color: #333;
+}
+/* End of Dark Mode*/
 
 .site-footer {
 	background-color: #1f1f1f;
