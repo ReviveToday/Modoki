@@ -17,7 +17,7 @@ body {
 
 .site-header {
 	background-color: #138e96;
-	border-bottom: .25em solid #0b4e53;
+	border-bottom: .25em solid #0c4e53;
 }
 
 .site-header .main-title a {
@@ -26,6 +26,10 @@ body {
 
 .site-header .main-nav {
 	background-color: #138e96;
+}
+
+.site-header .main-navigation .main-nav ul li a {
+	color: #fff;
 }
 
 .site-header .main-navigation .main-nav ul li:hover > a {
