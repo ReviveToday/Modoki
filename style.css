@@ -137,3 +137,21 @@ body.dark-mode {
 .site-footer .site-info {
 	background-color: inherit;
 }
+
+.site-footer .menu-foot-container {
+	text-align: center;
+}
+
+.site-footer .menu-foot-container a {
+	color: #fff;
+}
+
+.site-footer .menu-foot-container ul {
+	margin-top: 1.5em;
+	margin-bottom: 0;
+}
+
+.site-footer .menu-foot-container ul li {
+	padding: 0 1em 0 1em;
+	display: inline;
+}
