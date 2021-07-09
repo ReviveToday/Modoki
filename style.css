@@ -345,3 +345,53 @@ body.dark-mode {
 .home .site-main article {
 	border-top-width: 0;
 }
+
+.e404 {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 150;
+	background-color: #a5a5ff;
+	padding: 20px;
+	font-family: monospace;
+	color: #a5a5ff;
+}
+
+.e404 p,
+.e404 h1,
+.e404 li {
+	text-transform: uppercase;
+	margin-bottom: 0;
+}
+
+.e404 ul {
+	list-style-type: square;
+}
+
+.e404 a {
+	text-decoration: underline;
+	color: inherit;
+}
+
+.e404 div {
+	width: 100%;
+	height: 100%;
+	background-color: #4343e7;
+	padding: 5px;
+}
+
+.e404 .cmctr {
+	text-align: center;
+}
+
+.e404 .flashtilde {
+	animation: blinker 1.5s step-start infinite;
+  }
+  
+  @keyframes blinker {
+	50% {
+	  opacity: 0;
+	}
+  }
