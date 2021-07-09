@@ -37,6 +37,15 @@ add_action(
 	}
 );
 
+add_action(
+	'wp_head',
+	function() {
+		?>
+		<meta name="theme-color" content="#138e96">
+		<?php
+	}
+);
+
 // Create additional menus.
 add_action(
 	'after_setup_theme',
