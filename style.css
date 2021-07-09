@@ -316,20 +316,20 @@ body.dark-mode {
 	background-color: inherit;
 }
 
-.site-footer .menu-foot-container {
+.site-footer .menu {
 	text-align: center;
 }
 
-.site-footer .menu-foot-container a {
+.site-footer .menu a {
 	color: #fff;
 }
 
-.site-footer .menu-foot-container ul {
+.site-footer .menu {
 	margin-top: 1.5em;
 	margin-bottom: 0;
 }
 
-.site-footer .menu-foot-container ul li {
+.site-footer .menu li {
 	padding: 0 1em 0 1em;
 	display: inline;
 }

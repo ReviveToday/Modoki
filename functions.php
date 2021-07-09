@@ -107,11 +107,11 @@ add_filter(
 	1
 );
 
+// Bright/dark mode toggleswitch.
 add_filter(
 	'generate_navigation_search_menu_item_output',
 	function($aaa) {
-		$aaa .= '<span id="rtToggleBright" class="menu-bar-item"><a aria-label="" href="#">🔆</a></span>';
-
+		$aaa .= '<span class="menu-bar-item"><a class="rt-bright-toggle" aria-label="" href="#">🔆</a></span>';
 		return $aaa;
 	},
 	10,
