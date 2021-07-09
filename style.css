@@ -91,7 +91,8 @@ a {
 
 .site-content .post,
 .site-content .page,
-.site-content .widget {
+.site-content .widget,
+.site-content .comments-area {
 	border: 1px solid #dadada;
 }
 
@@ -111,7 +112,8 @@ body.dark-mode {
 
 .dark-mode .site-content .post,
 .dark-mode .site-content .page,
-.dark-mode .site-content .widget {
+.dark-mode .site-content .widget
+.dark-mode .site-content .comments-area {
 	border-color: #212121;
 }
 
@@ -126,7 +128,8 @@ body.dark-mode {
 }
 /* End of Dark Mode*/
 
-.wp-block-button__link {
+.wp-block-button__link,
+#dcl_comment_btn {
 	background-color: #138E96 !important;
 	border-bottom: solid 0.2em #0B4E53;
 	text-shadow: 0 1px 1px #000;
