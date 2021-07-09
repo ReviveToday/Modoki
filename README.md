@@ -19,3 +19,8 @@ A dark mode switch is now integrated into the toolbar alongside search. This wil
 ![Alert boxes ranging from good to aaaahhh everything's on fire](https://user-images.githubusercontent.com/11209477/125116403-96acbb80-e0e4-11eb-8a69-4b8339f0af98.png)
 
 A great way to highlight some important information. Add a custom `rt-alert` class to a paragraph block, with the addition of `info`, `success`, `warning` or `error`.
+
+## Pop Banner
+![Example of the pop and enhance boxes](https://user-images.githubusercontent.com/11209477/125116739-0f137c80-e0e5-11eb-9f6b-660084d7bfc4.png)
+
+A similar looking homepage banner image can be achieved with the **Cover** block, a couple of **Paragraph** blocks, and these lovely additional CSS classes. `rt-pop` will make the button-styled pop-out header, and `rt-enhance` will surround the box in a slightly transparent black square.
