@@ -23,4 +23,4 @@ A great way to highlight some important information. Add a custom `rt-alert` cla
 ## Pop Banner
 ![Example of the pop and enhance boxes](https://user-images.githubusercontent.com/11209477/125116739-0f137c80-e0e5-11eb-9f6b-660084d7bfc4.png)
 
-A similar looking homepage banner image can be achieved with the **Cover** block, a couple of **Paragraph** blocks, and these lovely additional CSS classes. `rt-pop` will make the button-styled pop-out header, and `rt-enhance` will surround the box in a slightly transparent black square.
+A similar looking homepage banner image can be achieved with the **Cover** block, a couple of **Paragraph** blocks, and these lovely additional CSS classes. `rt-pop` will make the button-styled pop-out header, and `rt-enhance` will surround the box in a slightly transparent black square. Whatever page set to **homepage** will have all top-level padding removed, so the cover image can go up against the header bar.
