@@ -87,6 +87,11 @@ a {
 	color: #fff;
 }
 
+.site-header .main-navigation .menu-bar-item:hover > a,
+.site-header .main-navigation .menu-bar-item.sfHover > a {
+	background-color: inherit;
+}
+
 /* Light mode */
 
 .site-content .post,
