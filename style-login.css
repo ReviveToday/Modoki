@@ -1,0 +1,140 @@
+body {
+	background-color: #3a6ea5;
+	color: black;
+}
+
+.wp-core-ui .button-primary {
+	color: black!important;
+}
+
+#login {
+	width: 523px;
+}
+
+#loginform {
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-bottom: 10px;
+    width: 320px;
+}
+
+#loginform, .login #login_error,
+.wp-core-ui .button-primary,
+.wp-core-ui .button-primary:focus,
+.wp-core-ui .button-primary:hover,
+.wp-core-ui .button-primary:active {
+	background-color: #d4d0c8;
+	border: 2px solid;
+	border-top-color: #fff;
+	border-left-color: #fff;
+	border-bottom-color: #404040;
+	border-right-color: #404040;
+	border-radius: 0;
+	color: black;
+}
+
+#loginform:before {
+    content: "Welcome to WordPress";
+	color: #fff;
+	padding: 2px;
+	font-weight: bold;
+    background: rgb(10,36,106);
+	background: linear-gradient(90deg, rgba(10,36,106,1) 0%, rgba(166,202,240,1) 100%);
+	display: block;
+    position: relative;
+	left: -100px;
+    top: -28px;
+    width: 520px;
+}
+
+#login_error {
+	width: 400px;
+	position: absolute;
+    top: 410px;
+    left: 20%;
+    z-index: 1;
+}
+
+#login_error:before {
+    content: "Illegal operation";
+	color: #fff;
+	padding: 2px;
+	font-weight: bold;
+    background: rgb(10,36,106);
+	background: linear-gradient(90deg, rgba(10,36,106,1) 0%, rgba(166,202,240,1) 100%);
+	display: block;
+    position: relative;
+	left: -12px;
+    top: -12px;
+    width: 420px;
+}
+
+#loginform:after {
+	content: "";
+    background-image: url("img/key.png");
+    z-index: 129;
+    position: relative;
+    width: 45px;
+    height: 48px;
+    display: block;
+    top: -150px;
+    left: -75px;
+}
+
+.wp-core-ui .button-primary:active {
+	border-top-color: #404040!important;
+	border-left-color: #404040!important;
+	border-bottom-color: #fff!important;
+	border-right-color: #fff!important;
+}
+
+#loginform input[type=text], #loginform input[type=text]:focus,
+#loginform input[type=password], #loginform input[type=password]:focus,
+.forgetmenot input[type="checkbox"] {
+	background-color: #fff!important;
+	border: 2px solid!important;
+	border-top-color: #404040!important;
+	border-left-color: #404040!important;
+	border-bottom-color: #fff!important;
+	border-right-color: #fff!important;
+	border-radius: 0;
+	box-shadow: none;
+}
+
+#wp-submit {
+	position: relative;
+    padding: 0 15px 0 15px;
+    top: -185px;
+    left: 90px;
+}
+
+/*.submit:before {
+    content: "x";
+    display: inline-block;
+    position: relative;
+	left: 286px;
+    bottom: 212px;
+	background-color: #d4d0c8;
+	border: 2px solid;
+	border-top-color: #fff;
+	border-left-color: #fff;
+	border-bottom-color: #404040;
+	border-right-color: #404040;
+	border-radius: 0;
+	height: 14px;
+	padding-left: 3px;
+    padding-right: 3px;
+	line-height: 1;
+}*/
+
+#loginform .wp-hide-pw {
+	display: none!important;
+}
+
+#login h1 a, .login h1 a {
+	display: none;
+}
+
+.login #backtoblog, .login #nav {
+	display: none;
+}
