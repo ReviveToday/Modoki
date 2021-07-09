@@ -26,8 +26,8 @@ a {
 	background-repeat: no-repeat;
 }
 
-.site-header .main-title {
-	display: none;
+.site-header .main-title,
+.site-header .main-title a {
 	color: #fff;
 }
 
