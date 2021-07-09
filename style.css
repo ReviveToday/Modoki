@@ -112,7 +112,7 @@ body.dark-mode {
 
 .dark-mode .site-content .post,
 .dark-mode .site-content .page,
-.dark-mode .site-content .widget
+.dark-mode .site-content .widget,
 .dark-mode .site-content .comments-area {
 	border-color: #212121;
 }
