@@ -34,7 +34,7 @@ get_header(); ?>
 				<p>We tried our tape of this content, but it didn't work.</p>
 				<p>Things you can do about it:</p>
 				<ul>
-					<li>Try the search <a href="<?php echo home_url(); ?>">on the hompage</a>.</li>
+					<li>Try the search <a href="<?php echo home_url(); ?>">on the homepage</a>.</li>
 					<li>See this URL in the <a href="https://web.archive.org/web/*/<?php echo home_url( $wp->request ); ?>">Wayback Machine</a>.</li>
 					<li>Seek assistance in <a href="https://revive.today/discord">our Discord</a>.</li>
 				</ul>
