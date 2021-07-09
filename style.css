@@ -363,7 +363,7 @@ body.dark-mode {
 .e404 h1,
 .e404 li {
 	text-transform: uppercase;
-	margin-bottom: 0;
+	margin-bottom: 2px;
 }
 
 .e404 ul {
