@@ -10,7 +10,7 @@ rt_is_dark = localStorage.getItem( 'rt-dark-mode' );
 if ( rt_is_dark !== null && rt_is_dark === 'yes' ) {
 	document.body.classList.add( 'dark-mode' );
 }
- 
+
 /**
  * Enable and disable the dark mode modifications.
  */
@@ -29,9 +29,10 @@ function darkmode_toggle() {
  * Find any and all toggle switches and grant them the power.
  */
 window.onload = function() {
-	var anchors = document.getElementsByClassName('rt-bright-toggle');
-	for(var i = 0; i < anchors.length; i++) {
-		var anchor = anchors[i];
+	var anchors   = document.getElementsByClassName( 'rt-bright-toggle' );
+	var arrlength = anchors.length;
+	for (var i = 0; i < arrlength; i++) {
+		var anchor     = anchors[i];
 		anchor.onclick = function() {
 			darkmode_toggle();
 		}

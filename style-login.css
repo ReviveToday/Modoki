@@ -15,7 +15,7 @@ body {
 	padding-left: 100px;
 	padding-right: 100px;
 	padding-bottom: 10px;
-    width: 320px;
+	width: 320px;
 }
 
 #loginform, .login #login_error,
@@ -34,51 +34,51 @@ body {
 }
 
 #loginform:before {
-    content: "Welcome to WordPress";
+	content: "Welcome to WordPress";
 	color: #fff;
 	padding: 2px;
 	font-weight: bold;
-    background: rgb(10,36,106);
+	background: rgb(10,36,106);
 	background: linear-gradient(90deg, rgba(10,36,106,1) 0%, rgba(166,202,240,1) 100%);
 	display: block;
-    position: relative;
+	position: relative;
 	left: -100px;
-    top: -28px;
-    width: 520px;
+	top: -28px;
+	width: 520px;
 }
 
 #login_error {
 	width: 400px;
 	position: absolute;
-    top: 410px;
-    left: 20%;
-    z-index: 1;
+	top: 410px;
+	left: 20%;
+	z-index: 1;
 }
 
 #login_error:before {
-    content: "Illegal operation";
+	content: "Illegal operation";
 	color: #fff;
 	padding: 2px;
 	font-weight: bold;
-    background: rgb(10,36,106);
+	background: rgb(10,36,106);
 	background: linear-gradient(90deg, rgba(10,36,106,1) 0%, rgba(166,202,240,1) 100%);
 	display: block;
-    position: relative;
+	position: relative;
 	left: -12px;
-    top: -12px;
-    width: 420px;
+	top: -12px;
+	width: 420px;
 }
 
 #loginform:after {
 	content: "";
-    background-image: url("img/key.png");
-    z-index: 129;
-    position: relative;
-    width: 45px;
-    height: 48px;
-    display: block;
-    top: -150px;
-    left: -75px;
+	background-image: url("img/key.png");
+	z-index: 129;
+	position: relative;
+	width: 45px;
+	height: 48px;
+	display: block;
+	top: -150px;
+	left: -75px;
 }
 
 .wp-core-ui .button-primary:active {
@@ -103,29 +103,10 @@ body {
 
 #wp-submit {
 	position: relative;
-    padding: 0 15px 0 15px;
-    top: -185px;
-    left: 90px;
+	padding: 0 15px 0 15px;
+	top: -185px;
+	left: 90px;
 }
-
-/*.submit:before {
-    content: "x";
-    display: inline-block;
-    position: relative;
-	left: 286px;
-    bottom: 212px;
-	background-color: #d4d0c8;
-	border: 2px solid;
-	border-top-color: #fff;
-	border-left-color: #fff;
-	border-bottom-color: #404040;
-	border-right-color: #404040;
-	border-radius: 0;
-	height: 14px;
-	padding-left: 3px;
-    padding-right: 3px;
-	line-height: 1;
-}*/
 
 #loginform .wp-hide-pw {
 	display: none!important;

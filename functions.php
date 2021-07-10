@@ -25,7 +25,7 @@ add_action(
 add_action(
 	'login_enqueue_scripts',
 	function() {
-		wp_enqueue_style( 'rt-login', get_stylesheet_directory_uri() . '/style-login.css', [], '1' );
+		wp_enqueue_style( 'rt-login', get_stylesheet_directory_uri() . '/style-login.css', array(), '1' );
 	}
 );
 
@@ -50,9 +50,11 @@ add_action(
 add_action(
 	'after_setup_theme',
 	function() {
-		register_nav_menus([
-			'footer_menu' => 'Footer Menu',
-		]);
+		register_nav_menus(
+			array(
+				'footer_menu' => 'Footer Menu',
+			)
+		);
 	}
 );
 
@@ -70,7 +72,9 @@ add_action(
 	'generate_after_content',
 	function() {
 		if ( is_page() ) {
-			?><hr><?php
+			?>
+			<hr>
+			<?php
 
 			$lu_conf = get_post_meta( get_the_ID(), 'rt_show_last_updated', true );
 			if ( ! empty( $lu_conf ) && ( true === $lu_conf || '1' === $lu_conf ) ) {
@@ -89,11 +93,13 @@ add_action(
 add_action(
 	'generate_footer',
 	function() {
-		wp_nav_menu([
-			'fallback_cb' => false,
-			'depth'       => 1,
-			'menu'        => 'footer_menu',
-		]);
+		wp_nav_menu(
+			array(
+				'fallback_cb' => false,
+				'depth'       => 1,
+				'menu'        => 'footer_menu',
+			)
+		);
 	}
 );
 
@@ -104,7 +110,7 @@ add_filter(
 		$copyright = sprintf(
 			'<span class="copyright">&copy; %1$s - %2$s %3$s</span>, a <a href="%4$s">soupbowl</a> site. <a href="%5$s">Theme details</a>.',
 			'2018',
-			date( 'Y' ),
+			gmdate( 'Y' ),
 			get_bloginfo( 'name' ),
 			esc_url( 'https://www.soupbowl.io/' ),
 			esc_url( 'https://github.com/revivetoday/Modoki' )
@@ -119,7 +125,7 @@ add_filter(
 // Bright/dark mode toggleswitch.
 add_filter(
 	'generate_navigation_search_menu_item_output',
-	function($aaa) {
+	function( $aaa ) {
 		$aaa .= '<span class="menu-bar-item"><a class="rt-bright-toggle" aria-label="" href="#">🔆</a></span>';
 		return $aaa;
 	},

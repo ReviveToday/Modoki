@@ -17,8 +17,8 @@ class Rt_Settings {
 	 * @return void Runs add_action to hook into WP.
 	 */
 	public function register_hooks() {
-		add_action( 'add_meta_boxes', [ &$this, 'form_setup' ] );
-		add_action( 'publish_page', [ &$this, 'store_custom' ] );
+		add_action( 'add_meta_boxes', array( &$this, 'form_setup' ) );
+		add_action( 'publish_page', array( &$this, 'store_custom' ) );
 	}
 
 	/**

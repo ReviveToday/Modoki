@@ -16,7 +16,7 @@ body {
 }
 
 a {
-    color: #138e96;
+	color: #138e96;
 }
 
 .site-header {
@@ -40,7 +40,7 @@ a {
 }
 
 .site-header .main-navigation .menu-bar-items {
-    color: #fff;
+	color: #fff;
 }
 
 .site-header .main-navigation .menu-bar-item:hover > a {
@@ -49,13 +49,13 @@ a {
 }
 
 .site-header .inside-header {
-    padding: 5px 40px;
+	padding: 5px 40px;
 }
 
 .site-header .header-image {
 	width: 75px;
-    position: absolute;
-    top: 10px;
+	position: absolute;
+	top: 10px;
 	z-index: 5;
 }
 
@@ -79,7 +79,7 @@ a {
 }
 
 .site-header .main-navigation ul ul {
-    background-color: #000000;
+	background-color: #000000;
 }
 
 .site-header .mobile-menu-control-wrapper .menu-toggle {
@@ -129,7 +129,7 @@ body.dark-mode {
 .dark-mode.separate-containers .paging-navigation,
 .dark-mode.inside-page-header,
 .dark-mode .sidebar .widget {
-    background-color: #333;
+	background-color: #333;
 }
 /* End of Dark Mode*/
 
@@ -317,7 +317,7 @@ body.dark-mode {
 
 .site-footer {
 	background-color: #1f1f1f;
-    border-top: .25em solid #3a3a3a;
+	border-top: .25em solid #3a3a3a;
 }
 
 .site-footer .site-info {
@@ -396,10 +396,10 @@ body.dark-mode {
 
 .e404 .flashtilde {
 	animation: blinker 1.5s step-start infinite;
-  }
-  
-  @keyframes blinker {
+}
+
+@keyframes blinker {
 	50% {
-	  opacity: 0;
+		opacity: 0;
 	}
-  }
+}
